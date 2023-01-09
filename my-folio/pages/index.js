@@ -28,7 +28,7 @@ export default function Home({profile}) {
 
 
 export async function getStaticProps(){
-  const res=await fetch("http://localhost:8080/profile");
+  const res=await fetch("https://api.github.com/users/ranjanpalai69");
   // console.log(res)
   const data=await res.json();
   // console.log(data)

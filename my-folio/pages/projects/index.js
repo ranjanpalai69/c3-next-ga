@@ -17,7 +17,7 @@ const projects = ({repos}) => {
 
 
 export async function getStaticProps(){
-    const res=await fetch("http://localhost:8080/repos");
+    const res=await fetch("https://api.github.com/search/repositories?q=user:ranjanpalai69+fork:true&sort=updated&per_page=10&type=Repositories");
     const data=await res.json();
     return {
         props:{

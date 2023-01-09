@@ -1,0 +1,20 @@
+
+.navbar{
+  width:100%;
+  height: auto;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  font-size: 25px;
+  
+}
+
+.navbar a,a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+

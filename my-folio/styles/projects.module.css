@@ -1,0 +1,28 @@
+
+.projects{
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.projects h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.pro{
+    width: 90%;
+    height: auto ;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    gap: 25px;
+   padding: 20px 25px;
+}
+
+.box{
+    border-radius: 5px;
+    padding: 15px 12px ;
+    border: 1px solid black;
+}

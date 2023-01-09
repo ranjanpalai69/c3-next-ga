@@ -1,0 +1,25 @@
+
+
+
+
+.profile{
+  width: 50%;
+  margin: 24px auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile h1{
+  text-align: center;
+}
+
+.profile img{
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+.heading{
+  text-align: center;
+}
